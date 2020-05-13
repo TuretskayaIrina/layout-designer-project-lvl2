@@ -1,0 +1,13 @@
+.container {
+  max-width: 1200px;
+}
+
+.footer {
+  background-color: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

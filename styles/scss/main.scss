@@ -1,2 +1,10 @@
-@import url("./fonts.scss");
+@import 'variables';
+@import 'framework';
+@import 'header';
+@import 'footer';
+
+body {
+  font-family: $default-font;
+  // background-color: $main-bg-color;
+}
 
