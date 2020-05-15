@@ -1,13 +1,25 @@
+@font-face {
+  src: url("../../fonts/Roboto/Roboto.woff2") format("woff2"), url("../../fonts/Roboto/Roboto.woff2") format("woff");
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url("../../fonts/Roboto/Robotobold.woff2") format("woff2"), url("../../fonts/Roboto/Robotobold.woff") format("woff");
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+}
 .container {
   max-width: 1200px;
 }
 
-.footer {
-  background-color: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
-}
-
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.footer {
+  background-color: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
 }
 
 /*# sourceMappingURL=style.css.map */
