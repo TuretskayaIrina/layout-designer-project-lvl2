@@ -30,8 +30,7 @@ body {
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  background-color: purple; }
+          align-items: center; }
 
 .header-logo {
   display: -webkit-box;
@@ -132,5 +131,60 @@ body {
 
 .footer-icon {
   margin-right: 21px; }
+
+.title-photo {
+  background-image: url("../images/Morten Harket.png");
+  background-size: cover;
+  background-position: center;
+  padding: 280px 0 82px;
+  color: #fff; }
+
+.main {
+  font-family: "Roboto", sans-serif;
+  font-style: normal; }
+  .main h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    margin: 0 0 25px; }
+  .main span {
+    font-size: 18px;
+    line-height: 21px; }
+  .main div {
+    margin: 40px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .main div button {
+      font-size: 14px;
+      line-height: 16px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      color: #FFFFFF;
+      border-radius: 5px;
+      border: none;
+      width: 200px;
+      height: 56px;
+      margin-right: 35px; }
+      .main div button img {
+        width: 16px;
+        height: 16px;
+        color: #FFFFFF;
+        -webkit-filter: invert(1);
+                filter: invert(1);
+        margin: 0 15px 0 20px; }
+      .main div button:hover {
+        cursor: pointer;
+        opacity: 0.5; }
+
+.bg-violet {
+  background: #5328A1; }
+
+.bg-brown {
+  background: #95390C; }
 
 /*# sourceMappingURL=style.css.map */
