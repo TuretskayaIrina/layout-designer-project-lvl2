@@ -61,9 +61,12 @@ body {
       color: #808080;
       list-style: none;
       margin-right: 36px; }
-      .header-nav ul li a:hover {
-        color: #FFFFFF;
-        cursor: pointer; }
+      .header-nav ul li a {
+        text-decoration: none;
+        color: #808080; }
+        .header-nav ul li a:hover {
+          color: #FFFFFF;
+          cursor: pointer; }
 
 .header-input {
   background: #3C3B3D;
@@ -73,6 +76,61 @@ body {
   padding: 7px 14px; }
 
 .footer {
-  background-color: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%); }
+  background: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
+  padding: 80px 0 50px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #CACACA; }
+
+.first-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px; }
+  .first-menu div {
+    margin-right: 100px; }
+    .first-menu div h3 {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      margin: 0 0 30px 0; }
+    .first-menu div ul {
+      padding: 0; }
+      .first-menu div ul li {
+        list-style: none;
+        margin: 0 0 20px 0; }
+        .first-menu div ul li a {
+          text-decoration: none;
+          color: #CACACA; }
+          .first-menu div ul li a:hover {
+            cursor: pointer;
+            opacity: 0.5; }
+    .first-menu div img:hover {
+      cursor: pointer;
+      opacity: 0.5; }
+
+.line {
+  border-top: 1px solid #EEEEEE; }
+
+.second-menu {
+  padding-top: 50px; }
+  .second-menu ul {
+    padding: 0; }
+    .second-menu ul li {
+      list-style: none;
+      display: inline;
+      margin: 0 40px 0 0; }
+      .second-menu ul li a {
+        text-decoration: none;
+        color: #CACACA; }
+        .second-menu ul li a:hover {
+          cursor: pointer;
+          opacity: 0.5; }
+
+.footer-icon {
+  margin-right: 21px; }
 
 /*# sourceMappingURL=style.css.map */
