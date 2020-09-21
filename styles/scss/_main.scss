@@ -1,0 +1,33 @@
+.content {
+  background-color: $main-bg-color;
+
+  h2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+}
+
+
+.popular-artist {
+  img {
+    width: 55px;
+    height: 50px;
+  }
+  span {
+    font-family: $default-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: $neutral-color;
+  }
+}
+
+.time {
+  font-family: $default-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: $dark-color;
+}

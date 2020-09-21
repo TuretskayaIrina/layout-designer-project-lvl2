@@ -7,3 +7,29 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+h2 {
+  font-family: $default-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: $main-color;
+  margin: 0;
+}
+
+h5 {
+  font-family: $default-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: $main-color;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 68px;
+}
