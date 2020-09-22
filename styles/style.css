@@ -28,12 +28,20 @@ h1 {
 h2 {
   text-transform: uppercase; }
 
+h3 {
+  text-transform: uppercase; }
+
 h5 {
-  font-weight: normal; }
+  font-weight: normal;
+  text-transform: uppercase; }
 
 .fz-11 {
   font-size: 11px;
   line-height: 13px; }
+
+.fz-12 {
+  font-size: 12px;
+  line-height: 28px; }
 
 .fz-14 {
   font-size: 14px;
@@ -368,5 +376,10 @@ h5 {
   background: url("../../images/subscribe_3.png");
   background-repeat: no-repeat;
   background-position: center; }
+
+.split {
+  width: 1px;
+  height: 11px;
+  background: #B8B8B8; }
 
 /*# sourceMappingURL=style.css.map */
