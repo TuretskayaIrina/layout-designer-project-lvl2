@@ -17,6 +17,7 @@ h2 {
   text-transform: uppercase;
   color: $main-color;
   margin: 0;
+  padding: 0;
 }
 
 h5 {
@@ -26,10 +27,23 @@ h5 {
   font-size: 14px;
   line-height: 16px;
   color: $main-color;
+  margin: 0;
+  padding: 0;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 68px;
+}
+
+.grid-row {
+  display: grid;
+  grid-row-gap: 25px;
+}
+
+.flex-s-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
