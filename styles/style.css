@@ -81,12 +81,17 @@ h5 {
 .text-center {
   text-align: center; }
 
-.grid {
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.grid-column-68 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 68px; }
 
-.grid-row {
+.grid-row-25 {
   display: grid;
   grid-row-gap: 25px; }
 
@@ -121,8 +126,14 @@ h5 {
 .m-b-50 {
   margin-bottom: 50px; }
 
+.m-b-70 {
+  margin-bottom: 70px; }
+
 .m-b-100 {
   margin-bottom: 100px; }
+
+.m-auto {
+  margin: auto; }
 
 .flex-centr {
   display: -webkit-box;
@@ -138,6 +149,10 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.width-100 {
+  max-width: 100%;
+  height: auto; }
 
 .header {
   position: absolute;

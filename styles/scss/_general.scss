@@ -15,6 +15,7 @@ body {
   padding: 0;
 }
 
+
 h1 {
   text-transform: uppercase;
 }
@@ -90,13 +91,17 @@ h5 {
   text-align: center;
 }
 
-.grid {
+.align-center {
+  align-items: center;
+}
+
+.grid-column-68 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 68px;
 }
 
-.grid-row {
+.grid-row-25 {
   display: grid;
   grid-row-gap: 25px;
 }
@@ -132,8 +137,16 @@ h5 {
   margin-bottom: 50px;
 }
 
+.m-b-70 {
+  margin-bottom: 70px;
+}
+
 .m-b-100 {
   margin-bottom: 100px;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .flex-centr {
@@ -141,4 +154,9 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.width-100 {
+  max-width: 100%;
+  height: auto;
 }
