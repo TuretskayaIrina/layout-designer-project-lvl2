@@ -15,36 +15,63 @@ body {
   max-width: 1200px;
   margin: 0 auto; }
 
-h2 {
+.default-font {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 45px;
-  text-transform: uppercase;
   color: #FFFFFF;
   margin: 0;
   padding: 0; }
 
-h4 {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 23px;
-  color: #FFFFFF;
-  margin: 0;
-  padding: 0; }
+h1 {
+  text-transform: uppercase; }
+
+h2 {
+  text-transform: uppercase; }
 
 h5 {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: normal; }
+
+.fz-11 {
+  font-size: 11px;
+  line-height: 13px; }
+
+.fz-14 {
   font-size: 14px;
-  line-height: 16px;
-  color: #FFFFFF;
-  margin: 0;
-  padding: 0; }
+  line-height: 16px; }
+
+.fz-16 {
+  font-size: 16px;
+  line-height: 19px; }
+
+.fz-22 {
+  font-size: 22px;
+  line-height: 26px; }
+
+.fz-23 {
+  font-size: 20px;
+  line-height: 23px; }
+
+.fz-24 {
+  font-size: 24px;
+  line-height: 28px; }
+
+.fz-30 {
+  font-size: 30px;
+  line-height: 35px; }
+
+.fz-38 {
+  font-size: 38px;
+  line-height: 45px; }
+
+.fz-60 {
+  font-size: 60px;
+  line-height: 70px; }
+
+.font-bold {
+  font-weight: bold; }
+
+.text-center {
+  text-align: center; }
 
 .grid {
   display: grid;
@@ -60,6 +87,12 @@ h5 {
   grid-template-columns: repeat(auto-fill, 250px);
   grid-gap: 50px; }
 
+.grid-gap-75 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  grid-template-rows: repeat(auto-fill, 580px);
+  grid-gap: 75px; }
+
 .flex-s-b {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,14 +103,6 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-
-.fz-16 {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF; }
 
 .m-b-10 {
   margin-bottom: 10px; }
@@ -224,19 +249,22 @@ h5 {
   margin-right: 21px; }
 
 .title-photo {
-  background-image: url("../images/Morten Harket.png");
   background-size: cover;
   background-position: center;
-  padding: 280px 0 82px;
   color: #fff; }
+
+.photo-catalog {
+  background-image: url("../../images/Morten_Harket.png");
+  padding: 280px 0 76px; }
+
+.photo-index {
+  background-image: url("../../images/banner.png");
+  padding: 272px 0 248px; }
 
 .main {
   font-family: "Roboto", sans-serif;
   font-style: normal; }
   .main h1 {
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 70px;
     margin: 0 0 25px; }
   .main span {
     font-size: 18px;
@@ -247,8 +275,6 @@ h5 {
     display: -ms-flexbox;
     display: flex; }
     .main div button {
-      font-size: 14px;
-      line-height: 16px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -307,8 +333,6 @@ h5 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
   color: #8C8C8C; }
 
 .discography-item div img {
@@ -329,5 +353,20 @@ h5 {
             filter: invert(1); }
   .discography-item div a:hover {
     opacity: 0.5; }
+
+.subscribe-free {
+  background: url("../../images/subscribe_1.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.subscribe-standart {
+  background: url("../../images/subscribe_2.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.subscribe-premium {
+  background: url("../../images/subscribe_3.png");
+  background-repeat: no-repeat;
+  background-position: center; }
 
 /*# sourceMappingURL=style.css.map */

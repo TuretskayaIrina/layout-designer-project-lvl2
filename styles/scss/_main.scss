@@ -33,8 +33,6 @@
   font-family: $default-font;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
   color: $dark-color;
 }
 
@@ -61,6 +59,39 @@
       opacity: 0.5;
       }
     }
-
   }
+}
+
+.subscribe {
+
+}
+
+.subscribe-free {
+  background: url('../../images/subscribe_1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.subscribe-standart {
+  background: url('../../images/subscribe_2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.subscribe-premium {
+  background: url('../../images/subscribe_3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.subscribe-content {
+
+}
+
+.subscribe-sum {
+
+}
+
+.btn-subscribe {
+
 }

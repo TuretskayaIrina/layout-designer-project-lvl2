@@ -1,18 +1,24 @@
 .title-photo {
-  background-image: url('../images/Morten Harket.png');
   background-size: cover;
   background-position: center;
-  padding: 280px 0 82px;
+
   color: #fff;
+}
+
+.photo-catalog {
+  background-image: url('../../images/Morten_Harket.png');
+  padding: 280px 0 76px;
+}
+
+.photo-index {
+  background-image: url('../../images/banner.png');
+  padding: 272px 0 248px;
 }
 
 .main {
     font-family: $default-font;
     font-style: normal;
   h1 {
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 70px;
     margin: 0 0 25px;
   }
 
@@ -28,8 +34,6 @@
 
 
     button {
-      font-size: 14px;
-      line-height: 16px;
       display: flex;
       align-items: center;
       color: $main-color;

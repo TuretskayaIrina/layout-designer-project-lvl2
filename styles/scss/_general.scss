@@ -7,39 +7,77 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-
-h2 {
+.default-font {
   font-family: $default-font;
   font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 45px;
-  text-transform: uppercase;
   color: $main-color;
   margin: 0;
   padding: 0;
 }
 
-h4 {
-  font-family: $default-font;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 23px;
-  color: $main-color;
-  margin: 0;
-  padding: 0;
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
 }
 
 h5 {
-  font-family: $default-font;
-  font-style: normal;
   font-weight: normal;
+}
+
+.fz-11 {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.fz-14 {
   font-size: 14px;
   line-height: 16px;
-  color: $main-color;
-  margin: 0;
-  padding: 0;
+}
+
+.fz-16 {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.fz-22 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.fz-23 {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.fz-24 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.fz-30 {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.fz-38 {
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.fz-60 {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .grid {
@@ -58,19 +96,18 @@ h5 {
   grid-template-columns: repeat(auto-fill, 250px);
   grid-gap: 50px;
 }
+
+.grid-gap-75 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  grid-template-rows: repeat(auto-fill, 580px);
+  grid-gap: 75px;
+}
+
 .flex-s-b {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.fz-16 {
-  font-family: $default-font;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: $main-color;
 }
 
 .m-b-10 {
