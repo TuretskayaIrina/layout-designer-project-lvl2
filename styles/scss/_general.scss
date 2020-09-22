@@ -20,6 +20,17 @@ h2 {
   padding: 0;
 }
 
+h4 {
+  font-family: $default-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: $main-color;
+  margin: 0;
+  padding: 0;
+}
+
 h5 {
   font-family: $default-font;
   font-style: normal;
@@ -42,8 +53,45 @@ h5 {
   grid-row-gap: 25px;
 }
 
+.grid-gap-50 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-gap: 50px;
+}
 .flex-s-b {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.fz-16 {
+  font-family: $default-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: $main-color;
+}
+
+.m-b-10 {
+ margin-bottom: 10px;
+}
+
+.m-b-15 {
+  margin-bottom: 15px;
+}
+
+.m-b-50 {
+  margin-bottom: 50px;
+}
+
+.m-b-100 {
+  margin-bottom: 100px;
+}
+
+.flex-centr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
