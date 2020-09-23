@@ -14,10 +14,10 @@
 
 .first-menu {
   display: flex;
+  justify-content: space-between;
   padding-bottom: 100px;
 
   div {
-    margin-right: 100px;
 
     h3 {
       font-weight: bold;
@@ -56,6 +56,7 @@
 }
 
 .second-menu {
+  display: flex;
   padding-top: 50px;
   ul {
     padding: 0;
