@@ -51,6 +51,10 @@ h5 {
   font-size: 16px;
   line-height: 19px; }
 
+.fz-18 {
+  font-size: 18px;
+  line-height: 21px; }
+
 .fz-22 {
   font-size: 22px;
   line-height: 26px; }
@@ -292,6 +296,11 @@ h5 {
 .photo-index {
   background-image: url("../../images/banner.png");
   padding: 272px 0 248px; }
+  .photo-index p {
+    font-weight: bold; }
+  .photo-index span {
+    margin: 45px 0 40px;
+    font-weight: bold; }
 
 .main {
   font-family: "Roboto", sans-serif;
@@ -484,5 +493,47 @@ h5 {
   .bth-pink:hover {
     cursor: pointer;
     opacity: 0.5; }
+
+.form {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .form input {
+    width: 43%;
+    height: 50px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    padding-left: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #FFFFFF; }
+  .form button {
+    width: 100%;
+    height: 50px;
+    background: #34C176;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #FFFFFF;
+    border: none; }
+    .form button:hover {
+      cursor: pointer;
+      opacity: 0.5; }
 
 /*# sourceMappingURL=style.css.map */

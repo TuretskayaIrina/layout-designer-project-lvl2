@@ -13,6 +13,13 @@
 .photo-index {
   background-image: url('../../images/banner.png');
   padding: 272px 0 248px;
+  p {
+    font-weight: bold;
+  }
+  span {
+    margin: 45px 0 40px;
+    font-weight: bold;
+  }
 }
 
 .main {
