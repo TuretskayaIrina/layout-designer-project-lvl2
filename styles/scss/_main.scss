@@ -101,3 +101,51 @@
   height: 11px;
   background: #B8B8B8;
 }
+
+.description {
+  p {
+    color: $dark-color;
+  }
+}
+
+.about-author {
+  width: 37%;
+  margin-bottom: 45px;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  h5 {
+    color: $contrast-color;
+  }
+  p {
+    color: $very-dark-color;
+  }
+}
+
+.bth-grey {
+  font-family: $default-font;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  color: $dark-color;
+  background: none;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+}
+
+.bth-pink {
+  background: #FF4157;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 58px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+}

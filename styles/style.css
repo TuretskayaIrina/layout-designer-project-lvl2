@@ -117,11 +117,17 @@ h5 {
       -ms-flex-align: center;
           align-items: center; }
 
+.m-0 {
+  margin: 0; }
+
 .m-b-10 {
   margin-bottom: 10px; }
 
 .m-b-15 {
   margin-bottom: 15px; }
+
+.m-b-25 {
+  margin-bottom: 25px; }
 
 .m-b-50 {
   margin-bottom: 50px; }
@@ -153,6 +159,9 @@ h5 {
 .width-100 {
   max-width: 100%;
   height: auto; }
+
+.line-h-28 {
+  line-height: 28px; }
 
 .header {
   position: absolute;
@@ -396,5 +405,40 @@ h5 {
   width: 1px;
   height: 11px;
   background: #B8B8B8; }
+
+.description p {
+  color: #8C8C8C; }
+
+.about-author {
+  width: 37%;
+  margin-bottom: 45px; }
+  .about-author img {
+    width: 20px;
+    height: 20px; }
+  .about-author h5 {
+    color: #F89202; }
+  .about-author p {
+    color: #555555; }
+
+.bth-grey {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  color: #8C8C8C;
+  background: none; }
+  .bth-grey:hover {
+    cursor: pointer;
+    opacity: 0.5; }
+
+.bth-pink {
+  background: #FF4157;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 58px; }
+  .bth-pink:hover {
+    cursor: pointer;
+    opacity: 0.5; }
 
 /*# sourceMappingURL=style.css.map */
