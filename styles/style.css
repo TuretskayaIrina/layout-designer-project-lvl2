@@ -93,7 +93,7 @@ h5 {
 .grid-column-68 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 68px; }
+  grid-gap: 68px; }
 
 .grid-row-25 {
   display: grid;
@@ -556,7 +556,12 @@ h5 {
     margin-right: 0; }
 
   .header-nav {
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .photo-index {
+    text-align: center; }
+    .photo-index h1 {
+      font-size: 50px; } }
 @media (max-width: 1024px) {
   .about-author {
     width: 100%; } }
@@ -571,7 +576,23 @@ h5 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; } }
+            flex-direction: column; }
+
+  .photo-index h1 {
+    font-size: 30px;
+    line-height: 35px; }
+  .photo-index p {
+    font-size: 18px;
+    line-height: 21px; }
+  .photo-index span {
+    font-size: 12px;
+    line-height: 14px; }
+
+  .form {
+    width: 100%; }
+
+  .grid-column-68 {
+    grid-gap: 40px; } }
 @media (max-width: 750px) {
   .wrapper {
     max-width: 280px; }
