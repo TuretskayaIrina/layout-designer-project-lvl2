@@ -220,6 +220,8 @@ h5 {
         .header-nav ul li a:hover {
           color: #FFFFFF;
           cursor: pointer; }
+      .header-nav ul li:last-child {
+        margin-right: 0; }
 
 .header-input {
   background: #3C3B3D;
@@ -270,12 +272,12 @@ h5 {
   border-top: 1px solid #EEEEEE; }
 
 .second-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 50px; }
   .second-menu ul {
-    padding: 0; }
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
     .second-menu ul li {
       list-style: none;
       display: inline;
@@ -420,17 +422,20 @@ h5 {
 .subscribe-free {
   background: url("../../images/subscribe_1.png");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: contain; }
 
 .subscribe-standart {
   background: url("../../images/subscribe_2.png");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: contain; }
 
 .subscribe-premium {
   background: url("../../images/subscribe_3.png");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: contain; }
 
 .subscribe-content {
   margin-bottom: 60px; }
@@ -572,12 +577,6 @@ h5 {
         -ms-flex-direction: column;
             flex-direction: column; }
 
-  .second-menu {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-
   .photo-index h1 {
     font-size: 30px;
     line-height: 35px; }
@@ -594,22 +593,97 @@ h5 {
   .grid-column-68 {
     grid-gap: 40px; } }
 @media (max-width: 750px) {
+  .second-menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .second-menu ul li {
+      margin-bottom: 20px; } }
+@media (max-width: 650px) {
   .wrapper {
-    max-width: 280px; }
+    width: 280px; }
+
+  .content h2 {
+    font-size: 20px;
+    line-height: 23px; }
+
+  .m-fz-12 {
+    font-size: 12px;
+    line-height: 14px; }
 
   .header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
 
-  .header-nav ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-    .header-nav ul li {
-      margin-bottom: 10px;
-      margin-right: 0; } }
+  .header-nav {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+    .header-nav ul {
+      margin-bottom: 0;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .header-nav ul li {
+        margin-bottom: 10px; }
+      .header-nav ul:last-child {
+        margin-bottom: 0; }
+
+  .header-input {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 80%; }
+
+  .form input {
+    width: 100%; }
+
+  .photo-index {
+    padding: 264px 0 44px;
+    background-size: 1156px 750px;
+    background-position-x: -176px; }
+
+  .photo-catalog {
+    padding: 295px 0 94px; }
+
+  .subscribe {
+    height: 460px; }
+
+  .subscribe-content {
+    margin: 0 20px; }
+    .subscribe-content div {
+      margin-bottom: 30px; }
+    .subscribe-content h4 {
+      font-weight: normal; }
+    .subscribe-content h5 {
+      font-weight: normal; }
+    .subscribe-content p {
+      margin: 0 0 16px 0; }
+
+  .grid-gap-75 {
+    grid-template-columns: repeat(auto-fill, 280px);
+    grid-gap: 50px; }
+
+  .btn-subscribe {
+    padding: 20px 65px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal; }
+
+  .grid-column-68 {
+    grid-template-columns: repeat(1, 1fr); }
+
+  .bth-grey {
+    width: 100%; }
+
+  .bth-pink {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

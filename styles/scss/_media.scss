@@ -35,10 +35,6 @@
     flex-direction: column;
   }
 
-  .second-menu {
-    flex-direction: column;
-  }
-
   .photo-index {
     h1 {
       font-size: 30px;
@@ -63,23 +59,115 @@
 
 
 @media (max-width: 750px) {
-  .wrapper {
-    max-width: 280px;
-  }
-
-  .header {
-    flex-direction: column;
-  }
-
-  .header-nav {
+  .second-menu {
     ul {
       flex-direction: column;
       li {
-        margin-bottom: 10px;
-        margin-right: 0;
+        margin-bottom: 20px;
       }
     }
   }
 }
 
 
+@media (max-width: 650px) {
+  .wrapper {
+    width: 280px;
+  }
+
+  .content{
+    h2 {
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+
+  .m-fz-12 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-nav {
+    order: 2;
+    ul {
+      margin-bottom: 0;
+      flex-direction: column;
+      li {
+        margin-bottom: 10px;
+      }
+        &:last-child {
+          margin-bottom: 0;
+        }
+    }
+
+  }
+
+  .header-input {
+    order: 1;
+    width: 80%;
+  }
+
+  .form {
+    input {
+      width: 100%;
+    }
+  }
+
+  .photo-index {
+    padding: 264px 0 44px;
+    background-size: 1156px 750px;
+    background-position-x: -176px;
+  }
+
+  .photo-catalog {
+    padding: 295px 0 94px;
+  }
+
+  .subscribe {
+    height: 460px;
+  }
+
+  .subscribe-content {
+    margin: 0 20px;
+    div {
+      margin-bottom: 30px;
+    }
+    h4 {
+      font-weight: normal;
+    }
+    h5 {
+      font-weight: normal;
+    }
+    p {
+      margin: 0 0 16px 0;
+    }
+  }
+
+  .grid-gap-75 {
+    grid-template-columns: repeat(auto-fill, 280px);
+    grid-gap: 50px;
+  }
+
+  .btn-subscribe {
+    padding: 20px 65px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+  }
+
+  .grid-column-68 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .bth-grey {
+    width: 100%;
+  }
+  .bth-pink{
+    width: 100%;
+  }
+}
