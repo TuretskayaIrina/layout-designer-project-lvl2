@@ -2,7 +2,7 @@
 ___
 Адаптивный (резиновый) landing музыкального портала.
 Адаптив для разрешений
-* 1440зч
+* 1440px
 * 1280px
 * 1024px
 * 768px
@@ -21,7 +21,9 @@ ___
 
 
 ### Deploy
+
 [Домашняя страница](https://turetskayairina.github.io/layout-designer-project-lvl2/index.html)
+
 [Каталог](https://turetskayairina.github.io/layout-designer-project-lvl2/catalog.html)
 
 
