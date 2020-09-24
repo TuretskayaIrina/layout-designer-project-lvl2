@@ -48,6 +48,12 @@
         opacity: 0.5;
       }
     }
+    .social {
+      li {
+        display: inline;
+      }
+    }
+
   }
 }
 
@@ -83,8 +89,4 @@
   margin-right: 21px;
 }
 
-.social {
-  li {
-    display: inline;
-  }
-}
+

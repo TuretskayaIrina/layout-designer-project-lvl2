@@ -267,6 +267,8 @@ h5 {
   .first-menu div img:hover {
     cursor: pointer;
     opacity: 0.5; }
+  .first-menu div .social li {
+    display: inline; }
 
 .line {
   border-top: 1px solid #EEEEEE; }
@@ -291,9 +293,6 @@ h5 {
 
 .footer-icon {
   margin-right: 21px; }
-
-.social li {
-  display: inline; }
 
 .title-photo {
   background-size: cover;
