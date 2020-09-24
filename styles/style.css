@@ -292,6 +292,9 @@ h5 {
 .footer-icon {
   margin-right: 21px; }
 
+.social li {
+  display: inline; }
+
 .title-photo {
   background-size: cover;
   background-position: center;
