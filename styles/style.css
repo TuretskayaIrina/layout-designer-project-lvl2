@@ -298,11 +298,11 @@ h5 {
   color: #fff; }
 
 .photo-catalog {
-  background-image: url("../../images/Morten_Harket.png");
+  background-image: url("../images/Morten_Harket.png");
   padding: 280px 0 76px; }
 
 .photo-index {
-  background-image: url("../../images/banner.png");
+  background-image: url("../images/banner.png");
   padding: 272px 0 248px; }
   .photo-index p {
     font-weight: bold; }
@@ -420,19 +420,19 @@ h5 {
   height: 580px; }
 
 .subscribe-free {
-  background: url("../../images/subscribe_1.png");
+  background: url("../images/subscribe_1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; }
 
 .subscribe-standart {
-  background: url("../../images/subscribe_2.png");
+  background: url("../images/subscribe_2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; }
 
 .subscribe-premium {
-  background: url("../../images/subscribe_3.png");
+  background: url("../images/subscribe_3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; }

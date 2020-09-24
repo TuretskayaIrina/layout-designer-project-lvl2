@@ -21,5 +21,5 @@ ___
 
 
 ### Deploy
-[Ссылка на готовый проект]()
-
+[Домашняя страница](https://turetskayairina.github.io/layout-designer-project-lvl2/index.html)
+[Каталог](https://turetskayairina.github.io/layout-designer-project-lvl2/catalog.html)
