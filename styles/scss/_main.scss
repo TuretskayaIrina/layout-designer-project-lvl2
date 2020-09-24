@@ -216,3 +216,13 @@
     }
   }
 }
+
+.similar-artists {
+  div {
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}

@@ -162,6 +162,7 @@
 
   .grid-column-68 {
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
   }
 
   .bth-grey {
@@ -170,4 +171,93 @@
   .bth-pink{
     width: 100%;
   }
+
+  .photo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .m-m-b-44 {
+    margin-bottom: 44px;
+  }
+
+  .m-m-b-40 {
+    margin-bottom: 40px;
+  }
+
+  .m-m-b-90 {
+    margin-bottom: 90px;
+  }
+
+  .photo-catalog {
+    padding: 295px 0 65px;
+    background-size: 2200px 630px;
+    background-position-x: -1374px;
+  }
+  .main {
+    h1 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    span {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    div {
+      flex-direction: column;
+      button {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .discography-item {
+    div {
+      img {
+        width: 130px;
+        height: 130px;
+      }
+      a {
+        width: 15px;
+        height: 15px;
+        left: 5px;
+        bottom: 23px;
+
+        img {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+    h4 {
+      font-size: 16px;
+      line-height: 19px;
+    }
+    span {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+
+  .grid-gap-50 {
+    grid-template-columns: repeat(auto-fill, 130px);
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+  }
+
+  .similar-artists {
+    div {
+      h4 {
+        font-size: 16px;
+        line-height: 19px;
+      }
+      span {
+        font-size: 12px;
+        line-height: 14px;
+      }
+    }
+  }
+
 }
