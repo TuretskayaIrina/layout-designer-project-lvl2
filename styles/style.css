@@ -23,17 +23,24 @@ body {
   padding: 0; }
 
 h1 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
 
 h2 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
 
 h3 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
+
+h4 {
+  margin: 0; }
 
 h5 {
   font-weight: normal;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
 
 .fz-11 {
   font-size: 11px;
@@ -149,6 +156,9 @@ h5 {
 .m-auto {
   margin: auto; }
 
+.m-t-24 {
+  margin-top: 24px; }
+
 .flex-centr {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,9 +167,6 @@ h5 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -404,7 +411,8 @@ h5 {
 
 .discography-item div img {
   width: 250px;
-  height: 250px; }
+  height: 250px;
+  margin-bottom: -29px; }
 .discography-item div a {
   display: block;
   width: 25px;
@@ -714,6 +722,9 @@ h5 {
     grid-row-start: 1;
     grid-row-end: 2; }
 
+  .m-m-b-10 {
+    margin-bottom: 10px; }
+
   .m-m-b-44 {
     margin-bottom: 44px; }
 
@@ -722,6 +733,9 @@ h5 {
 
   .m-m-b-90 {
     margin-bottom: 90px; }
+
+  .m-m-t-20 {
+    margin-top: 20px; }
 
   .photo-catalog {
     background-size: 2200px 630px;
@@ -748,7 +762,8 @@ h5 {
 
   .discography-item div img {
     width: 130px;
-    height: 130px; }
+    height: 130px;
+    margin-bottom: -19px; }
   .discography-item div a {
     width: 15px;
     height: 15px;

@@ -18,19 +18,27 @@ body {
 
 h1 {
   text-transform: uppercase;
+  margin: 0;
 }
 
 h2 {
   text-transform: uppercase;
+  margin: 0;
 }
 
 h3 {
   text-transform: uppercase;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
 }
 
 h5 {
   font-weight: normal;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .fz-11 {
@@ -167,10 +175,13 @@ h5 {
   margin: auto;
 }
 
+.m-t-24 {
+  margin-top: 24px;
+}
+
 .flex-centr {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 

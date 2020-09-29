@@ -177,6 +177,10 @@
     grid-row-end: 2;
   }
 
+  .m-m-b-10 {
+    margin-bottom: 10px;
+  }
+
   .m-m-b-44 {
     margin-bottom: 44px;
   }
@@ -189,6 +193,9 @@
     margin-bottom: 90px;
   }
 
+  .m-m-t-20 {
+    margin-top: 20px;
+  }
   .photo-catalog {
     background-size: 2200px 630px;
     background-position-x: -1374px;
@@ -222,6 +229,7 @@
       img {
         width: 130px;
         height: 130px;
+        margin-bottom: -19px;
       }
       a {
         width: 15px;
