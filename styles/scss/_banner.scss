@@ -1,20 +1,21 @@
 .title-photo {
   background-size: cover;
   background-position: center;
-
   color: #fff;
 }
 
 .photo-catalog {
   background-image: url('../images/Morten_Harket.png');
-  padding: 280px 0 76px;
 }
 
 .photo-index {
   background-image: url('../images/banner.png');
-  padding: 272px 0 248px;
+}
+
+.online-music {
   p {
     font-weight: bold;
+    text-transform: uppercase;
   }
   span {
     margin: 45px 0 40px;

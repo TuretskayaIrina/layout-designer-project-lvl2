@@ -100,6 +100,10 @@ h5 {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .grid-column-68 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -121,8 +125,9 @@ h5 {
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
   grid-gap: 75px;
-  justify-content: center;
 }
+
+
 
 .flex-s-b {
   display: flex;
@@ -176,4 +181,15 @@ h5 {
 
 .line-h-28 {
   line-height: 28px;
+}
+
+.width-23 {
+  width: 23%;
+}
+
+.padding-280-76 {
+  padding: 280px 0 76px;
+}
+.padding-272-248 {
+  padding: 272px 0 248px;
 }

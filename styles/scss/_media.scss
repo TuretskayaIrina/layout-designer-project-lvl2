@@ -15,7 +15,7 @@
     margin-right: 0;
   }
 
-  .photo-index {
+  .online-music {
     text-align: center;
     h1 {
       font-size: 50px;
@@ -35,7 +35,7 @@
     flex-direction: column;
   }
 
-  .photo-index {
+  .online-music {
     h1 {
       font-size: 30px;
       line-height: 35px;
@@ -49,10 +49,11 @@
       line-height: 14px;
     }
   }
+
   .form {
     width: 100%;
   }
-  .grid-column-68 {
+  .grid-gap-40 {
     grid-gap: 40px;
   }
 }
@@ -119,13 +120,12 @@
   }
 
   .photo-index {
-    padding: 264px 0 44px;
-    background-size: 1156px 750px;
+    background-size: 1156px 765px;
     background-position-x: -176px;
   }
 
-  .photo-catalog {
-    padding: 295px 0 94px;
+  .padding-264-44 {
+    padding: 264px 0 44px;
   }
 
   .subscribe {
@@ -148,7 +148,7 @@
     }
   }
 
-  .grid-gap-75 {
+  .grid-gap-50 {
     grid-template-columns: repeat(auto-fill, 280px);
     grid-gap: 50px;
   }
@@ -160,7 +160,7 @@
     font-weight: normal;
   }
 
-  .grid-column-68 {
+  .grid-gap-20 {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
   }
@@ -190,10 +190,14 @@
   }
 
   .photo-catalog {
-    padding: 295px 0 65px;
     background-size: 2200px 630px;
     background-position-x: -1374px;
   }
+
+  .padding-295-65 {
+    padding: 295px 0 65px;
+  }
+
   .main {
     h1 {
       font-size: 30px;
@@ -241,7 +245,7 @@
     }
   }
 
-  .grid-gap-50 {
+  .grid-gap-50-20 {
     grid-template-columns: repeat(auto-fill, 130px);
     grid-row-gap: 50px;
     grid-column-gap: 20px;

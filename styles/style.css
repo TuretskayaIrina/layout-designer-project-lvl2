@@ -90,6 +90,11 @@ h5 {
       -ms-flex-align: center;
           align-items: center; }
 
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
 .grid-column-68 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -107,10 +112,7 @@ h5 {
 .grid-gap-75 {
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
-  grid-gap: 75px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  grid-gap: 75px; }
 
 .flex-s-b {
   display: -webkit-box;
@@ -169,11 +171,16 @@ h5 {
 .line-h-28 {
   line-height: 28px; }
 
+.width-23 {
+  width: 23%; }
+
+.padding-280-76 {
+  padding: 280px 0 76px; }
+
+.padding-272-248 {
+  padding: 272px 0 248px; }
+
 .header {
-  position: absolute;
-  top: 25px;
-  left: 0;
-  right: 0;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 11px;
@@ -185,6 +192,12 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.absolute-25 {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0; }
 
 .header-logo {
   display: -webkit-box;
@@ -226,10 +239,9 @@ h5 {
       .header-nav ul li:last-child {
         margin-right: 0; }
 
-.header-input {
+.dark-input {
   background: #3C3B3D;
   border-radius: 50px;
-  width: 23%;
   border: none;
   padding: 7px 14px; }
 
@@ -304,17 +316,17 @@ h5 {
   color: #fff; }
 
 .photo-catalog {
-  background-image: url("../images/Morten_Harket.png");
-  padding: 280px 0 76px; }
+  background-image: url("../images/Morten_Harket.png"); }
 
 .photo-index {
-  background-image: url("../images/banner.png");
-  padding: 272px 0 248px; }
-  .photo-index p {
-    font-weight: bold; }
-  .photo-index span {
-    margin: 45px 0 40px;
-    font-weight: bold; }
+  background-image: url("../images/banner.png"); }
+
+.online-music p {
+  font-weight: bold;
+  text-transform: uppercase; }
+.online-music span {
+  margin: 45px 0 40px;
+  font-weight: bold; }
 
 .main {
   font-family: "Roboto", sans-serif;
@@ -575,9 +587,9 @@ h5 {
   .header-nav {
     margin-right: 0; }
 
-  .photo-index {
+  .online-music {
     text-align: center; }
-    .photo-index h1 {
+    .online-music h1 {
       font-size: 50px; } }
 @media (max-width: 1024px) {
   .about-author {
@@ -589,20 +601,20 @@ h5 {
         -ms-flex-direction: column;
             flex-direction: column; }
 
-  .photo-index h1 {
+  .online-music h1 {
     font-size: 30px;
     line-height: 35px; }
-  .photo-index p {
+  .online-music p {
     font-size: 18px;
     line-height: 21px; }
-  .photo-index span {
+  .online-music span {
     font-size: 12px;
     line-height: 14px; }
 
   .form {
     width: 100%; }
 
-  .grid-column-68 {
+  .grid-gap-40 {
     grid-gap: 40px; } }
 @media (max-width: 750px) {
   .second-menu ul {
@@ -658,12 +670,11 @@ h5 {
     width: 100%; }
 
   .photo-index {
-    padding: 264px 0 44px;
-    background-size: 1156px 750px;
+    background-size: 1156px 765px;
     background-position-x: -176px; }
 
-  .photo-catalog {
-    padding: 295px 0 94px; }
+  .padding-264-44 {
+    padding: 264px 0 44px; }
 
   .subscribe {
     height: 460px; }
@@ -679,7 +690,7 @@ h5 {
     .subscribe-content p {
       margin: 0 0 16px 0; }
 
-  .grid-gap-75 {
+  .grid-gap-50 {
     grid-template-columns: repeat(auto-fill, 280px);
     grid-gap: 50px; }
 
@@ -689,7 +700,7 @@ h5 {
     line-height: 14px;
     font-weight: normal; }
 
-  .grid-column-68 {
+  .grid-gap-20 {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px; }
 
@@ -713,9 +724,11 @@ h5 {
     margin-bottom: 90px; }
 
   .photo-catalog {
-    padding: 295px 0 65px;
     background-size: 2200px 630px;
     background-position-x: -1374px; }
+
+  .padding-295-65 {
+    padding: 295px 0 65px; }
 
   .main h1 {
     font-size: 30px;
@@ -751,7 +764,7 @@ h5 {
     font-size: 14px;
     line-height: 16px; }
 
-  .grid-gap-50 {
+  .grid-gap-50-20 {
     grid-template-columns: repeat(auto-fill, 130px);
     grid-row-gap: 50px;
     grid-column-gap: 20px; }
@@ -762,5 +775,4 @@ h5 {
   .similar-artists div span {
     font-size: 12px;
     line-height: 14px; } }
-
 /*# sourceMappingURL=style.css.map */
