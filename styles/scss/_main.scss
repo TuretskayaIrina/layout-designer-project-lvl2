@@ -68,7 +68,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 580px;
 }
 
 .subscribe-free {
@@ -93,7 +92,8 @@
 }
 
 .subscribe-content {
-  margin-bottom: 60px;
+
+  margin: 0 10px 60px;
   div {
     margin-bottom: 40px;
   }
@@ -105,9 +105,17 @@
 .subscribe-sum {
   display: flex;
   justify-content: center;
-  h4 {
-    padding-right: 11px;
-  }
+
+    p {
+      padding-right: 11px;
+      font-weight: bold;
+    }
+    span {
+        font-weight: normal;
+        text-transform: uppercase;
+        padding-right: 0;
+        margin: 0;
+    }
 }
 
 .btn-subscribe {

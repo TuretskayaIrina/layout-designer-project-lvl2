@@ -15,7 +15,6 @@
 .online-music {
   p {
     font-weight: bold;
-    text-transform: uppercase;
   }
   span {
     margin: 45px 0 40px;
@@ -28,6 +27,7 @@
     font-style: normal;
   h1 {
     margin: 0 0 25px;
+    text-transform: uppercase;
   }
 
   span {
@@ -50,6 +50,7 @@
       width: 200px;
       height: 56px;
       margin-right: 35px;
+      text-transform: uppercase;
 
 
       img {

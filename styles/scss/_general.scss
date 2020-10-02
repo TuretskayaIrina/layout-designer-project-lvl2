@@ -135,7 +135,9 @@ h5 {
   grid-gap: 75px;
 }
 
-
+.grid-row-580 {
+  grid-template-rows: repeat(1, 580px);
+}
 
 .flex-s-b {
   display: flex;

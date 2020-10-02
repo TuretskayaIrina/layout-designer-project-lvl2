@@ -1,4 +1,4 @@
-@media (max-width: 1280px) {
+@media (max-width: 1260px) {
   .wrapper {
     max-width: 95%;
   }
@@ -21,6 +21,10 @@
       font-size: 50px;
     }
   }
+
+  .grid-row-580 {
+    grid-template-rows: repeat(2, 580px);
+  }
 }
 
 @media (max-width: 1024px) {
@@ -30,7 +34,7 @@
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 815px) {
   .first-menu {
     flex-direction: column;
   }
@@ -56,6 +60,11 @@
   .grid-gap-40 {
     grid-gap: 40px;
   }
+
+  .grid-row-580 {
+    grid-template-rows: repeat(3, 580px);
+  }
+
 }
 
 
@@ -128,12 +137,8 @@
     padding: 264px 0 44px;
   }
 
-  .subscribe {
-    height: 460px;
-  }
-
   .subscribe-content {
-    margin: 0 20px;
+    margin: 0 20px 16px;
     div {
       margin-bottom: 30px;
     }
@@ -143,14 +148,15 @@
     h5 {
       font-weight: normal;
     }
-    p {
-      margin: 0 0 16px 0;
-    }
   }
 
-  .grid-gap-50 {
+  .grid-column-280 {
     grid-template-columns: repeat(auto-fill, 280px);
     grid-gap: 50px;
+  }
+
+  .grid-row-460 {
+    grid-template-rows: repeat(3, 460px);
   }
 
   .btn-subscribe {
