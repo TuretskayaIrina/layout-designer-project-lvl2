@@ -15,27 +15,35 @@ body {
   padding: 0;
 }
 
+.contrast-color {
+  color: $contrast-color;
+}
+
+.very-dark-color {
+  color: $very-dark-color;
+}
+
+.dark-color {
+  color: $dark-color;
+}
 
 h1 {
+  font-size: 60px;
+  line-height: 70px;
   text-transform: uppercase;
   margin: 0;
 }
 
 h2 {
+  font-size: 38px;
+  line-height: 45px;
   text-transform: uppercase;
   margin: 0;
 }
 
 h3 {
-  text-transform: uppercase;
-  margin: 0;
-}
-
-h4 {
-  margin: 0;
-}
-
-h5 {
+  font-size: 24px;
+  line-height: 28px;
   font-weight: normal;
   text-transform: uppercase;
   margin: 0;
@@ -84,11 +92,6 @@ h5 {
 .fz-30 {
   font-size: 30px;
   line-height: 35px;
-}
-
-.fz-38 {
-  font-size: 38px;
-  line-height: 45px;
 }
 
 .fz-60 {

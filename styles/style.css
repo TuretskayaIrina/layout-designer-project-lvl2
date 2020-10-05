@@ -22,22 +22,30 @@ body {
   margin: 0;
   padding: 0; }
 
+.contrast-color {
+  color: #F89202; }
+
+.very-dark-color {
+  color: #555555; }
+
+.dark-color {
+  color: #8C8C8C; }
+
 h1 {
+  font-size: 60px;
+  line-height: 70px;
   text-transform: uppercase;
   margin: 0; }
 
 h2 {
+  font-size: 38px;
+  line-height: 45px;
   text-transform: uppercase;
   margin: 0; }
 
 h3 {
-  text-transform: uppercase;
-  margin: 0; }
-
-h4 {
-  margin: 0; }
-
-h5 {
+  font-size: 24px;
+  line-height: 28px;
   font-weight: normal;
   text-transform: uppercase;
   margin: 0; }
@@ -77,10 +85,6 @@ h5 {
 .fz-30 {
   font-size: 30px;
   line-height: 35px; }
-
-.fz-38 {
-  font-size: 38px;
-  line-height: 45px; }
 
 .fz-60 {
   font-size: 60px;
@@ -242,11 +246,11 @@ h5 {
         text-decoration: none;
         text-transform: uppercase;
         color: #808080; }
-        .header-nav ul li a:active {
-          color: #FFFFFF; }
         .header-nav ul li a:hover {
           color: #FFFFFF;
           cursor: pointer; }
+        .header-nav ul li a:active {
+          color: #FFFFFF; }
       .header-nav ul li:last-child {
         margin-right: 0; }
 
@@ -274,7 +278,7 @@ h5 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 100px; }
-  .first-menu section h3 {
+  .first-menu section .h6 {
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
@@ -352,30 +356,31 @@ h5 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .main div button {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      color: #FFFFFF;
-      border-radius: 5px;
-      border: none;
-      width: 200px;
-      height: 56px;
-      margin-right: 35px;
-      text-transform: uppercase; }
-      .main div button img {
-        width: 16px;
-        height: 16px;
-        color: #FFFFFF;
-        -webkit-filter: invert(1);
-                filter: invert(1);
-        margin: 0 15px 0 20px; }
-      .main div button:hover {
-        cursor: pointer;
-        opacity: 0.5; }
+
+.main-buttom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  height: 56px;
+  margin-right: 35px;
+  text-transform: uppercase; }
+  .main-buttom img {
+    width: 16px;
+    height: 16px;
+    color: #FFFFFF;
+    -webkit-filter: invert(1);
+            filter: invert(1);
+    margin: 0 15px 0 20px; }
+  .main-buttom:hover {
+    cursor: pointer;
+    opacity: 0.5; }
 
 .bg-violet {
   background: #5328A1; }
@@ -403,8 +408,10 @@ h5 {
     font-size: 12px;
     line-height: 14px;
     color: #808080; }
-  .popular-artist h5 {
-    margin-bottom: 5px; }
+  .popular-artist p {
+    margin: 0 0 5px 0;
+    font-weight: normal;
+    text-transform: uppercase; }
   .popular-artist div {
     margin: auto 0; }
 
@@ -482,8 +489,7 @@ h5 {
       -ms-flex-pack: center;
           justify-content: center; }
   .subscribe-sum p {
-    padding-right: 11px;
-    font-weight: bold; }
+    padding-right: 11px; }
   .subscribe-sum span {
     font-weight: normal;
     text-transform: uppercase;
@@ -507,19 +513,14 @@ h5 {
   height: 11px;
   background: #B8B8B8; }
 
-.description p {
-  color: #8C8C8C; }
-
 .about-author {
   width: 37%;
   margin-bottom: 45px; }
   .about-author img {
     width: 20px;
     height: 20px; }
-  .about-author h5 {
-    color: #F89202; }
   .about-author p {
-    color: #555555; }
+    text-transform: uppercase; }
 
 .bth-grey {
   font-family: "Roboto", sans-serif;
@@ -652,6 +653,10 @@ h5 {
   .wrapper {
     width: 280px; }
 
+  .h3 {
+    font-size: 16px;
+    line-height: 19px; }
+
   .content h2 {
     font-size: 20px;
     line-height: 23px; }
@@ -704,10 +709,6 @@ h5 {
     margin: 0 20px 16px; }
     .subscribe-content div {
       margin-bottom: 30px; }
-    .subscribe-content h4 {
-      font-weight: normal; }
-    .subscribe-content h5 {
-      font-weight: normal; }
 
   .grid-column-280 {
     grid-template-columns: repeat(auto-fill, 280px);
@@ -769,10 +770,11 @@ h5 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    .main div button {
-      margin-right: 0;
-      width: 100%;
-      margin-bottom: 20px; }
+
+  .main-buttom {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 20px; }
 
   .discography-item div img {
     width: 130px;
@@ -786,7 +788,7 @@ h5 {
     .discography-item div a img {
       width: 15px;
       height: 15px; }
-  .discography-item h4 {
+  .discography-item p {
     font-size: 16px;
     line-height: 19px; }
   .discography-item span {
@@ -798,7 +800,7 @@ h5 {
     grid-row-gap: 50px;
     grid-column-gap: 20px; }
 
-  .similar-artists div h4 {
+  .similar-artists div p {
     font-size: 16px;
     line-height: 19px; }
   .similar-artists div span {
