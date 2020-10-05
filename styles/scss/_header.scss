@@ -53,18 +53,20 @@
           color: $main-color;
           cursor: pointer;
         }
-        &:active {
-          color: $main-color;
-        }
       }
         &:last-child {
           margin-right: 0;
         }
 
+      .active-link {
+        color: $main-color;
+      }
     }
 
   }
 }
+
+
 
 .dark-input {
   background: #3C3B3D;

@@ -249,10 +249,10 @@ h3 {
         .header-nav ul li a:hover {
           color: #FFFFFF;
           cursor: pointer; }
-        .header-nav ul li a:active {
-          color: #FFFFFF; }
       .header-nav ul li:last-child {
         margin-right: 0; }
+      .header-nav ul li .active-link {
+        color: #FFFFFF; }
 
 .dark-input {
   background: #3C3B3D;
