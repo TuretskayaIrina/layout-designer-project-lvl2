@@ -29,7 +29,7 @@
 
 @media (max-width: 1024px) {
   .about-author {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -63,6 +63,10 @@
 
   .grid-row-580 {
     grid-template-rows: repeat(3, 580px);
+  }
+
+  .about-author {
+    width: 100%;
   }
 
 }
@@ -138,8 +142,8 @@
     background-position-x: -176px;
   }
 
-  .padding-264-44 {
-    padding: 264px 0 44px;
+  .padding-250-0-50 {
+    padding: 250px 0 50px;
   }
 
   .subscribe-content {
@@ -153,6 +157,9 @@
 
   .grid-column-280 {
     grid-template-columns: repeat(auto-fill, 280px);
+  }
+
+  .m-grid-gap-50 {
     grid-gap: 50px;
   }
 
@@ -167,8 +174,12 @@
     font-weight: normal;
   }
 
-  .grid-gap-20 {
+  .m-grid-columns-1fr {
     grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .m-grid-gap-20 {
     grid-gap: 20px;
   }
 
@@ -208,9 +219,6 @@
     background-position-x: -1374px;
   }
 
-  .padding-295-65 {
-    padding: 295px 0 65px;
-  }
 
   .main {
     h1 {
@@ -261,9 +269,15 @@
     }
   }
 
-  .grid-gap-50-20 {
+  .grid-columns-130 {
     grid-template-columns: repeat(auto-fill, 130px);
+  }
+
+  .m-grid-row-gap-50 {
     grid-row-gap: 50px;
+  }
+
+  .m-grid-column-gap-20 {
     grid-column-gap: 20px;
   }
 

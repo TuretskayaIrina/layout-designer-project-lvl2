@@ -50,6 +50,13 @@ h3 {
   text-transform: uppercase;
   margin: 0; }
 
+.h6 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 30px 0;
+  text-transform: none; }
+
 .fz-11 {
   font-size: 11px;
   line-height: 13px; }
@@ -106,27 +113,32 @@ h3 {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.grid-column-68 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 68px; }
-
-.grid-row-25 {
-  display: grid;
-  grid-row-gap: 25px; }
+.grid {
+  display: grid; }
 
 .grid-gap-50 {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 250px);
   grid-gap: 50px; }
 
+.grid-gap-68 {
+  grid-gap: 68px; }
+
 .grid-gap-75 {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 350px);
   grid-gap: 75px; }
+
+.grid-row-25 {
+  grid-row-gap: 25px; }
 
 .grid-row-580 {
   grid-template-rows: repeat(1, 580px); }
+
+.grid-columns-2-1fr {
+  grid-template-columns: repeat(2, 1fr); }
+
+.grid-columns-250 {
+  grid-template-columns: repeat(auto-fill, 250px); }
+
+.grid-columns-350 {
+  grid-template-columns: repeat(auto-fill, 350px); }
 
 .flex-s-b {
   display: -webkit-box;
@@ -188,11 +200,11 @@ h3 {
 .width-23 {
   width: 23%; }
 
-.padding-280-76 {
-  padding: 280px 0 76px; }
+.padding-280-0-80 {
+  padding: 280px 0 80px; }
 
-.padding-272-248 {
-  padding: 272px 0 248px; }
+.padding-250-0 {
+  padding: 250px 0; }
 
 .header {
   font-family: "Roboto", sans-serif;
@@ -278,12 +290,6 @@ h3 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 100px; }
-  .first-menu section .h6 {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 21px;
-    margin: 0 0 30px 0;
-    text-transform: none; }
   .first-menu section ul {
     padding: 0; }
     .first-menu section ul li {
@@ -615,7 +621,7 @@ h3 {
     grid-template-rows: repeat(2, 580px); } }
 @media (max-width: 1024px) {
   .about-author {
-    width: 100%; } }
+    width: 50%; } }
 @media (max-width: 815px) {
   .first-menu {
     -webkit-box-orient: vertical;
@@ -640,7 +646,10 @@ h3 {
     grid-gap: 40px; }
 
   .grid-row-580 {
-    grid-template-rows: repeat(3, 580px); } }
+    grid-template-rows: repeat(3, 580px); }
+
+  .about-author {
+    width: 100%; } }
 @media (max-width: 750px) {
   .second-menu ul {
     -webkit-box-orient: vertical;
@@ -702,8 +711,8 @@ h3 {
     background-size: 1156px 765px;
     background-position-x: -176px; }
 
-  .padding-264-44 {
-    padding: 264px 0 44px; }
+  .padding-250-0-50 {
+    padding: 250px 0 50px; }
 
   .subscribe-content {
     margin: 0 20px 16px; }
@@ -711,7 +720,9 @@ h3 {
       margin-bottom: 30px; }
 
   .grid-column-280 {
-    grid-template-columns: repeat(auto-fill, 280px);
+    grid-template-columns: repeat(auto-fill, 280px); }
+
+  .m-grid-gap-50 {
     grid-gap: 50px; }
 
   .grid-row-460 {
@@ -723,8 +734,10 @@ h3 {
     line-height: 14px;
     font-weight: normal; }
 
-  .grid-gap-20 {
-    grid-template-columns: repeat(1, 1fr);
+  .m-grid-columns-1fr {
+    grid-template-columns: repeat(1, 1fr); }
+
+  .m-grid-gap-20 {
     grid-gap: 20px; }
 
   .bth-grey {
@@ -755,9 +768,6 @@ h3 {
   .photo-catalog {
     background-size: 2200px 630px;
     background-position-x: -1374px; }
-
-  .padding-295-65 {
-    padding: 295px 0 65px; }
 
   .main h1 {
     font-size: 30px;
@@ -795,9 +805,13 @@ h3 {
     font-size: 14px;
     line-height: 16px; }
 
-  .grid-gap-50-20 {
-    grid-template-columns: repeat(auto-fill, 130px);
-    grid-row-gap: 50px;
+  .grid-columns-130 {
+    grid-template-columns: repeat(auto-fill, 130px); }
+
+  .m-grid-row-gap-50 {
+    grid-row-gap: 50px; }
+
+  .m-grid-column-gap-20 {
     grid-column-gap: 20px; }
 
   .similar-artists div p {
